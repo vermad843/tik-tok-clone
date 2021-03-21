@@ -4,17 +4,13 @@ import './Video.css';
 function Video() { 
     const videoRef = useRef(null);
     
-    const onVideoPress = () => {
-        
-    }
-
+ 
     return (
         <div className = "video">
           
             <video
                className = "video__player"
                loop
-               onClick = {onVideoPress}
                src = "snow.mp4"
                width="560" 
                height="315"
