@@ -5,13 +5,12 @@ import Video from './Video';
 function App() {
   return (
     <div className="app">
-        <h1>Hello World</h1>
-        <div className = "app__videos">
-           <Video/>
-           <Video/>
-           <Video/>
-           <Video/>
-        </div>
+         <div className = "app__videos">
+             <Video/>
+             <Video/>
+             <Video/>
+             <Video/>
+          </div>
     </div>
   );
 }
