@@ -13,3 +13,5 @@
 [x] 3rd party
 
 [x] UseRef hooks
+
+[x] firebase.js file 
