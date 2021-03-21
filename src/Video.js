@@ -1,18 +1,26 @@
-import React from 'react';
+import React,{useRef} from 'react';
 import './Video.css';
 
 function Video() { 
+    const videoRef = useRef(null);
+    
+    const onVideoPress = () => {
+        
+    }
+
     return (
         <div className = "video">
-            <iframe 
-               className="video__player" 
-               loop 
-               controls
-               src="https://giphy.com/embed/1dLQC6YCDvelfnA3k9" 
-               frameBorder="0" 
-               allowFullScreen
+          
+            <video
+               className = "video__player"
+               loop
+               onClick = {onVideoPress}
+               src = "snow.mp4"
+               width="560" 
+               height="315"
+               ref = {videoRef} 
                >
-            </iframe>
+            </video>
             {/* <VideoFooter/> */}
             {/* <VideoSidebar/> */}
         </div>
@@ -44,5 +52,18 @@ export default Video;
                frameborder="0" 
                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                allowfullscreen>
+            </iframe> */}
+
+//  gif
+   
+              {/* <iframe 
+               className="video__player" 
+               loop
+            //    onClick = {onVideoPress}
+               ref = {videoRef} 
+               src="https://giphy.com/embed/1dLQC6YCDvelfnA3k9" 
+            //    frameBorder="0" 
+            //    allowFullScreen
+               >
             </iframe> */}
     
