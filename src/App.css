@@ -2,6 +2,11 @@ html {
   scroll-snap-type : y mandatory;
 }
 
+.app {
+  color : white;
+  background-color: black;
+}
+
 .app__videos {
   position : relative;
   height : 800px;
@@ -9,4 +14,18 @@ html {
   width : 80%;
   max-width: 500px;
   scroll-snap-type : y mandatory;
+}
+
+
+/* Hide Scrollbar */
+
+.app__videos::-webkit-scrollbar {
+  display : none;
+}
+
+/* Hide scrollbar */
+
+.app__videos {
+  -ms-overflow-style: none;
+  scrollbar-width : none;
 }
