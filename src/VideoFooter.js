@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './VideoFooter.css';
 
 function VideoFooter() {
     return (
-        <div>
+        <div className = "videoFooter">
             <h2>I am a Footer</h2>
         </div>
     )
