@@ -9,16 +9,18 @@ function VideoFooter() {
            <div className = "videoFooter__text">
                <h3>@vermad843</h3>
                <p>this is a description</p>
-               <MusicNoteIcon/>
-               <Ticker mode="smooth">
-                   {
-                       ({index}) => (
-                           <>
-                             <h1>What's up guys {index}</h1>
-                           </>
-                       )
-                   }
-               </Ticker>
+               <div className = "videoFooter__ticker">
+                  <MusicNoteIcon/>
+                  <Ticker mode="smooth">
+                      {
+                          ({index}) => (
+                              <>
+                                <p>What's up guys {index}</p>
+                              </>
+                          )
+                      }
+                  </Ticker>
+               </div>
            </div>
            <img
                className = "videoFooter__record"
