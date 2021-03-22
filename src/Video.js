@@ -28,7 +28,11 @@ function Video() {
                ref = {videoRef} 
                >
             </video>
-            <VideoFooter/>
+            <VideoFooter
+               channel = "vermad843"
+               description = "Check out this dance"
+               song = "Usher - Yeah"
+            />
             {/* <VideoFooter/> */}
             {/* <VideoSidebar/> */}
         </div>
