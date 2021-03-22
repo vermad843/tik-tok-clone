@@ -22,3 +22,7 @@
 [x] Icons :  https://thenounproject.com/search/?q=spinner
 
 [x] https://static.thenounproject.com/png/934821-200.png
+
+[x] npm install @material-ui/core
+
+[x] npm install @material-ui/icons
