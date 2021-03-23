@@ -27,13 +27,13 @@ function VideoSidebar({likes, shares, messages}) {
                <MessageIcon
                      fontSize = "large"
                />
-               <p>{shares}</p>
+               <p>{messages}</p>
            </div> 
            <div className = "videoSidebar__button">
                <ShareIcon
                      fontSize = "large"
                />
-               <p>{messages}</p>
+               <p>{shares}</p>
            </div>
         </div>
     )

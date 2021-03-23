@@ -3,7 +3,14 @@ import './Video.css';
 import VideoFooter from './VideoFooter'; 
 import VideoSidebar from './VideoSidebar';
 
-function Video() {
+function Video({
+   channel,
+   description,
+   song,
+   likes,
+   messages,
+   shares,
+}) {
     const[playing, setPlaying] = useState(false); 
     const videoRef = useRef(null);
     
@@ -30,14 +37,14 @@ function Video() {
                >
             </video>
             <VideoFooter
-               channel = "vermad843"
-               description = "Check out this dance"
-               song = "Usher - Yeah"
+               channel = {channel}
+               description = {description}
+               song = {song}
             />
             <VideoSidebar
-               likes = {111}
-               messages={333}
-               shares = {222}
+               likes = {likes}
+               messages={messages}
+               shares = {shares}
             />
         </div>
     )
