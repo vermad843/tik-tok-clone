@@ -28,3 +28,6 @@
 [x] npm install @material-ui/icons
 
 [x] npm i react-ticker
+
+
+[x] npm i firebase 
