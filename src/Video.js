@@ -34,7 +34,11 @@ function Video() {
                description = "Check out this dance"
                song = "Usher - Yeah"
             />
-            <VideoSidebar/>
+            <VideoSidebar
+               likes = {111}
+               messages={333}
+               shares = {222}
+            />
         </div>
     )
 }
