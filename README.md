@@ -31,3 +31,5 @@
 
 
 [x] npm i firebase 
+
+[x] Firestore Database
