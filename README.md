@@ -1,5 +1,6 @@
 *** Tik-Tok-Clone
 
+[x] deployed - https://practical-jones-18a375.netlify.app/
 
 [x] Material ui
 
